@@ -82,18 +82,19 @@ a{text-decoration: none;}
     .topnav{float: left; width: 100%; position: relative; z-index: 99999; background-color: #fab515 ;}
     .menu_active{float: left; width: 10%;}
     #logo_topo_w { width: 40%; margin: 10% 15% 0; }
-    #myLinks {float: left; width: 89%; margin: 0% 0; display: block; font-size: 1vw;}    
+    #myLinks { float: left; width: 88%; margin: 1% 0; display: block; font-size: 1vw; }
     .icon{display: none;}    
     /* end of hamburguer's menu */
 
-    ul {list-style: none; width: 100%; float: left; padding: 0% 0%;}
-    li {float: right; padding: 1% 1%; width: 14%; text-align: center;}
-    li a { color: #000 !important; text-align: center; font-weight: 600; font-size: 1.4vw; float: left; width: -webkit-fill-available; width: -moz-available; text-decoration: none; }
-    li a:hover { background-color: #000; color: #f9b006 !important; transition: ease 1s; }
+    ul { list-style: none; white-space: nowrap; width: fit-content; float: right; padding: 0 0; }
+    li { float: left; padding: 0% 0%; width: fit-content; text-align: center; color: #000!important; }
+    li a { color: #000 !important; text-align: center; font-weight: 600; font-size: 1.4vw; padding: 0 5%; float: left; width: -webkit-fill-available; width: -moz-available; text-decoration: none; }    
+    li a:hover {background-color: #000; color: #f9b006 !important; transition: ease 1s; } */
 
     .osb {color: #fab515;}
     .osw{color: #f9b006;}
-    .titulos {font-size: 5vw; padding: 2% 2% 0 0;}
+    .titulos {font-size: 5vw;}
+    /*.titulos {font-size: 5vw; padding: 2% 2% 0 0;} */
 
 /* #SECTION_1 (TOPO) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
@@ -131,7 +132,7 @@ a{text-decoration: none;}
     #tema_das_aulas{ float: left; width: 100%; background-color: #fab515;}
     #txt_tema_das_aulas { color: #000; font-weight: 600; float: left; width: 25%; margin: 0 12.5% 4%; }
     #txt_e_btn_tema_das_aulas { float: left; color: #000; text-align: center; font-size: 1.5vw; padding: 5.5% 9.5%; width: 27%; }
-    .btn_download { background-color: #121d48; color: #f9b0006; text-align: center; width: 40%; margin: 5% 25% 0; padding: 2% 5%; border-radius: 10px; cursor: pointer; }
+    .btn_download {float: left; background-color: #121d48; color: #f9b0006; text-align: center; width: 40%; margin: 5% 25% 0; padding: 2% 5%; border-radius: 10px; cursor: pointer; }
     .btn_download:hover{background-color: #070e28; color: #fff; transition: ease 1s;}
 
 /* #SECTION_4 (NOSSA ESTRUTURA) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -157,9 +158,9 @@ a{text-decoration: none;}
     .bss-slides1 .bss-show, .bss-slides2 .bss-show  {z-index: 3;}
     .bss-slides1 .bss-show img, .bss-slides2 .bss-show img {opacity: 1; -webkit-backface-visibility: hidden; backface-visibility: hidden;}
 
-    .bss-next, .bss-prev { color: #033675; position: absolute; top: 24.5%; z-index: 4; font-size: 4vw; opacity: .5; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; float: left; }    .bss-next:hover, .bss-prev:hover{cursor: pointer; opacity: 1;}
-    .bss-next {right: 0%; padding: 10px 5px 15px 10px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; float: right;}
-    .bss-prev {left: 0%; padding: 10px 10px 15px 5px; border-top-right-radius: 3px; border-bottom-right-radius: 3px;}
+    .bss-next, .bss-prev { color: #033675; position: absolute; top: 30%; z-index: 4; font-size: 4vw; opacity: .5; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; float: left; }    .bss-next:hover, .bss-prev:hover{cursor: pointer; opacity: 1;}
+    .bss-next {right: 0%; padding: 0px 0px 0px 0px; border-top-left-radius: 0px; border-bottom-left-radius: 0px; float: right;}
+    .bss-prev {left: 0%; padding: 0px 0px 0px 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px;}
 
     /*secondary slideshow classes*/
     #container_2 > div > span.bss-prev , #container_2 > div > span.bss-next { color: #FFF; }
@@ -199,29 +200,29 @@ a{text-decoration: none;}
      /* Hamburguer Menu*/
     .topnav{float: left; width: 100%; position: relative; z-index: 99999; background-color: #fab515 ;}
     .menu_active{float: left; width: 10%;}
-    #logo_topo_w { width: 40%; margin: 8% 15% 0; }
+    #logo_topo_w { width: 60%; margin: 8% 15% 0; }
     #myLinks {float: left; width: 89%; margin: 0% 0; display: block; font-size: 1vw;}    
     .icon{display: none;}    
     /* end of hamburguer's menu */
 
     ul {list-style: none; width: 100%; float: left; padding: 0% 0%;}
-    li {float: left; padding: 1% 1%; width: 18%; text-align: center;}
+    li { float: right; padding: 1% 1%; width: fit-content; text-align: center; }
     li a {color: #fff; text-align: center; font-weight: 600; font-size: 2vw; float: left; width: -webkit-fill-available; text-decoration: none;}
-        a:visited{color: #fff; }
+    a:visited{color: #fff; }
 
     .osb {color: #fab515;}
-   .osw{color: #f9b006;}
-    .titulos {font-size: 5vw; padding: 2% 2% 0 0;}
+    .osw{color: #f9b006;}
+    .titulos {font-size: 5vw;}
 
 /* #SECTION_1 (TOPO) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
     .webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.webp);}
     .no-webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.jpg);}
 
-    #txts_pgdc { float: right; width: 40%; padding: 5.75% 4% 0; color: #fff; font-weight: 600; }
+    #txts_pgdc { float: right; width: 50%; padding: 10% 4%; color: #fff; font-weight: 600; }
     .linha_1_pgdc { float: left; width: fit-content; padding: 0 5% 0; font-size: 4vw; color: #000; background: #fab515; }
     .linha_2_pgdc { float: left; width: 100%; font-size: 13vw; line-height: 100%; }
-    .linha_3_pgdc {float: left; width: 100%; font-size: 6.3vw;}
+    .linha_3_pgdc {float: left; width: 100%; font-size: 6.3vw; line-height: 1; }
 
    .txt_diferencial { float: right; width: 42%; padding: 0 1.5% 10.12% 57%; font-size: 2.6vw; color: #f9b006; }
    .txt_desconto { float: right; width: 45%; padding: 0 2% 0 2%; font-size: 2.6vw; color: #033675; background: #f9b006; margin-bottom: 3.16%; }
@@ -239,22 +240,21 @@ a{text-decoration: none;}
     .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(images/video_play.png); cursor: pointer;}
     /*end of responsive video classes */
 
-    #half_txt_curso { float: left; width: 80%; margin: 0% 10% 0; }
+    #half_txt_curso {float: left; width: 80%; margin: 0% 10% 5%;}
     
     .bh{border: 3px solid; color: #fab515; padding: 0; margin: 0 0; width: 30%;}
     /*#half_txt_curso > div > hr, #txt_titulo_estrutura > hr{color: #033675;}*/
 
 /* #SECTION_3 (TEMA DAS AULAS) */
     #tema_das_aulas{ float: left; width: 100%; background-color: #fab515; }
-    #txt_tema_das_aulas { color: #000; float: left; width: 25%; margin: 0 12.5% 0; }
-    #txt_e_btn_tema_das_aulas { float: left; color: #000; text-align: center; font-size: 1.5vw; padding: 5.5% 9.5%; width: 27%; }
-    .btn_download{ background-color: #121d48; color: #fff; text-align: center; width: 26%; margin: 5% 32% 0; padding: 2% 5%; border-radius: 10px; cursor: pointer; text-decoration: none;}
+    #txt_tema_das_aulas { color: #000; float: left; width: 32%; margin: 1.5% 10% 0; }
+    #txt_e_btn_tema_das_aulas { float: left; color: #000; text-align: center; font-size: 1.5vw; padding: 5.5% 9.5%; width: 29%; }
+    .btn_download { float: left; background-color: #121d48; color: #fff; text-align: center; width: 36%; margin: 5% 29% 0; padding: 2% 5%; border-radius: 10px; cursor: pointer; text-decoration: none; }
 
 /* #SECTION_4 (NOSSA ESTRUTURA) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-    #nossa_estrutura { float: left; width: 90%; padding: 0% 5%;}
+    #nossa_estrutura { float: left; width: 90%; padding: 0% 5% 5%;}
     #txt_nossas_estrutura { width: 90%; float: left; padding: 0% 5%; }
-    #txt_titulo_estrutura { float: left; width: 29.3%; margin: 0 35.35% 0%; }
-
+    #txt_titulo_estrutura { float: left; width: 37%; margin: 5% 31.5% 0; }
     /*slideshow classes with hammer*/
     #container_1, #container_2{float: left; width: 100%; margin: 0% 0% 25%; }
     
@@ -273,7 +273,7 @@ a{text-decoration: none;}
     .bss-slides1 .bss-show, .bss-slides2 .bss-show  {z-index: 3;}
     .bss-slides1 .bss-show img, .bss-slides2 .bss-show img {opacity: 1; -webkit-backface-visibility: hidden; backface-visibility: hidden;}
 
-    .bss-next, .bss-prev { color: #033675; position: absolute; top: 34.5%; z-index: 4; font-size: 4vw; opacity: .5; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; float: left; }    .bss-next:hover, .bss-prev:hover{cursor: pointer; opacity: 1;}
+    .bss-next, .bss-prev { color: #033675; position: absolute; top: 27%; z-index: 4; font-size: 4vw; opacity: .5; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; float: left; }    .bss-next:hover, .bss-prev:hover{cursor: pointer; opacity: 1;}
     .bss-next {right: 0%; padding: 10px 5px 15px 10px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; float: right;}
     .bss-prev {left: 0%; padding: 10px 10px 15px 5px; border-top-right-radius: 3px; border-bottom-right-radius: 3px;}
 
@@ -314,23 +314,27 @@ a{text-decoration: none;}
     h1{font-size: 6vw; color: #FFF; margin: 0; font-family: 'Oswald', sans-serif;}
     p {font-size: 1.5vw; color: #58595B; padding: 2% 2%;}
     
-    ul {list-style: none; width: 100%; float: left; padding: 0% 0%;}
-    li {float: left; padding: 1% 1%; width: 18%; text-align: center;}
-    li a {color: #fff; text-align: center; font-weight: 600; font-size: 2vw; float: left; width: -webkit-fill-available;}    
+    ul { list-style: none; width: 100%; float: right; padding: 0 0; }
+    li { float: right; padding: 1% 1%; width: fit-content; text-align: center; }
+    li a {color: #fff; text-align: center; font-weight: 600; font-size: 2vw; float: left; width: -webkit-fill-available;}
+    
+    #myLinks { float: left; width: 93%; margin: 0 0; display: block; font-size: 1vw; }
+    .menu_active { float: left; width: 5%; padding: 1.2% 1% 0; }
+    #logo_topo_w { width: 100%; margin: 0 0; padding: 0 0; }
 
     .osb {color: #fab515;}
-   .osw{color: #f9b006;}
-    .titulos {font-size: 5vw; padding: 2% 2% 0 0;}
+    .osw{color: #f9b006;}
+    .titulos { font-size: 5vw; }
 
 /*_SECTION_1 (TOPO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
     .webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.webp);}
     .no-webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.jpg);}
 
-    #txts_pgdc { float: right; width: 40%; padding: 5.75% 4% 0; color: #fff; font-weight: 600; }
+    #txts_pgdc { float: right; width: 50%; padding: 10% 5%; color: #fff; font-weight: 600; }
 
-    .linha_1_pgdc {float: left; width: 100%; font-size: 4vw;}
-    .linha_2_pgdc {float: left; width: 100%; font-size: 13vw; line-height: 85%;}
+    .linha_1_pgdc { float: left; width: fit-content; font-size: 4vw; }
+    .linha_2_pgdc {float: left; width: 100%; font-size: 13vw; line-height: 100%;}
     .linha_3_pgdc {float: left; width: 100%; font-size: 6.3vw;}
 
     .txt_diferencial { float: right; width: 38%; padding: 3.3% 10.5%; font-size: 3vw; color: #f9b006; }
@@ -352,10 +356,14 @@ a{text-decoration: none;}
     #half_txt_curso { float: left;width: 80%; margin: 0% 10% 0; }
     .bh{border: 3px solid; color: #fab515; padding: 0; margin: 0 0; width: 30%;}
 
+/* #SECTION_3 (TEMA DAS AULAS) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    #txt_tema_das_aulas { color: #fff; float: left; width: 32%; margin: 5% 34% 0; }
+    #txt_e_btn_tema_das_aulas { float: left; color: #000; text-align: center; font-size: 3vw; padding: 2.5% 22.5% 5%; width: 55%; }
+
 /* #SECTION_4 (NOSSA ESTRUTURA) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-    #nossa_estrutura { float: left; width: 90%; padding: 0% 5%;}
+    #nossa_estrutura { float: left; width: 90%; padding: 0% 5% 5%;}
     #txt_nossas_estrutura { width: 90%; float: left; padding: 0% 5%; }
-    #txt_titulo_estrutura { float: left; width: 29.3%; margin: 0 35.35% 0%; }
+    #txt_titulo_estrutura { float: left; width: 37%; margin: 5% 31.5% 0; }
 
     /*slideshow classes with hammer*/
     #container_1, #container_2{float: left; width: 100%; margin: 0% 0% 25%; }
@@ -440,17 +448,17 @@ a{text-decoration: none;}
     
     .osb {color: #fab515;}
    .osw{color: #f9b006;}
-    .titulos {font-size: 7vw; padding: 2% 5% 0;}
+    .titulos {font-size: 7vw;}
 
 /*_SECTION_1 (TOPO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
     .webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.webp);}
     .no-webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.jpg);}
 
-    #txts_pgdc { float: right; width: 50%; padding: 5% 0% 0; color: #fff; font-weight: 600; }
+    #txts_pgdc { float: right; width: 50%; padding: 5% 0% 5%; color: #fff; font-weight: 600; }
 
-    .linha_1_pgdc {float: left; width: 100%; font-size: 5vw;}
-    .linha_2_pgdc {float: left; width: 100%; font-size: 14vw; line-height: 85%;}
+    .linha_1_pgdc {float: left; width: fit-content; font-size: 5vw;}
+    .linha_2_pgdc {float: left; width: 100%; font-size: 14vw; line-height: 100%;}
     .linha_3_pgdc {float: left; width: 100%; font-size: 7.3vw;}
 
     .txt_diferencial { float: left; width: 47%; padding: 5% 3% 5% 50%; font-size: 3vw; color: #f9b006; }
@@ -469,7 +477,7 @@ a{text-decoration: none;}
     .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(images/video_play.png); cursor: pointer;}
     /* End of Responsive Video Classes */
 
-    #half_txt_curso {float: left; width: 100%; margin: 5% 0% 0%;}
+    #half_txt_curso { float: left; width: 90%; margin: 0% 5% 5%; }
     
     .bh{border: 3px solid; color: #fab515; padding: 0; margin: 0 0; width: 30%;}
 
@@ -480,7 +488,7 @@ a{text-decoration: none;}
 /* #SECTION_4 (NOSSA ESTRUTURA) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #nossa_estrutura { float: left; width: 90%; padding: 0% 5%;}
     #txt_nossas_estrutura { width: 90%; float: left; padding: 0% 5%; }
-    #txt_titulo_estrutura { float: left; width: 41%; margin: 0 24.5% 0; }
+    #txt_titulo_estrutura { float: left; width: 52%; margin: 5% 24.5% 0; }
 
     /*slideshow classes with hammer*/
     #container_1, #container_2{float: left; width: 100%; margin: 0% 0% 120%; }
@@ -489,7 +497,7 @@ a{text-decoration: none;}
     .dft-img, .txts_slideshow {float: left; width: 100%;}
     
     .txt_ss_titulo_lg , .txt_ss_descricao_lg { color: #033675; padding: 2.5% 2%; background: #fff;}
-    .txt_ss_titulo_lg { font-size: 2.7vw; text-align: center; }
+    .txt_ss_titulo_lg { font-size: 2.2vw; text-align: center; }
     
     .bss-slides1, .bss-slides2 { display: block; position: absolute; width: 90%; margin: 0% 0%; float: left; }
 
@@ -500,17 +508,17 @@ a{text-decoration: none;}
     .bss-slides1 .bss-show, .bss-slides2 .bss-show  {z-index: 3;}
     .bss-slides1 .bss-show img, .bss-slides2 .bss-show img {opacity: 1; -webkit-backface-visibility: hidden; backface-visibility: hidden;}
 
-    .bss-next, .bss-prev { color: #033675; position: absolute; top: 36%; z-index: 4; font-size: 12.3vw; opacity: .5; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; float: left; }    .bss-next:hover, .bss-prev:hover{cursor: pointer; opacity: 1;}
-    .bss-next {right: -3%; padding: 10px 5px 15px 10px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; float: right;}
-    .bss-prev {left: -3%; padding: 10px 10px 15px 5px; border-top-right-radius: 3px; border-bottom-right-radius: 3px;}
+    .bss-next, .bss-prev { color: #033675; position: absolute; top: 35%; z-index: 4; font-size: 12.3vw; opacity: .5; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; float: left; }    .bss-next:hover, .bss-prev:hover{cursor: pointer; opacity: 1;}
+    .bss-next {right: 0%; padding: 0px 0px 0px 0px; border-top-left-radius: 0px; border-bottom-left-radius: 0px; float: right;}
+    .bss-prev {left: 0%; padding: 0px 0px 0px 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px;}
 
     /*secondary slideshow classes*/
     #container_2 > div > span.bss-prev , #container_2 > div > span.bss-next { color: #FFF; }
-    .txt_ss_titulo_lg2 { font-size: 1.9vw; text-align: center; background: #070e28; color: #fff; padding: 2.5% 2%;}
+    .txt_ss_titulo_lg2 { font-size: 2vw; text-align: center; background: #070e28; color: #fff; padding: 2.5% 2%;}
 
 /*_SECTION_5 (CONHEÇA NOSSO CORPO DOCENTE) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #conheca_nosso_corpo_docente { float: left; width: 90%; padding: 3% 5%; background: #070e28; }
-    #txt_conheca{ color: #FFF; }
+    #txt_conheca { color: #fff; float: left; width: 55%; margin: 5% 22.5% 5%; }
   
 /*_SECTION_6 (NOSSOS DIFERENCIAIS & CONTATO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #contato{float: left; width: 90%; padding: 0% 3%;}
@@ -563,16 +571,16 @@ polyline { color: #f9b006; }
       
     .osb {color: #fab515;}
    .osw{color: #f9b006;}
-    .titulos {font-size: 7vw; padding: 2% 5% 0;}
+    .titulos { font-size: 7vw; }
 
 /*_SECTION_1 (TOPO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
     .webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.webp);}
     .no-webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.jpg);}
 
-    #txts_pgdc { float: right; width: 50%; padding: 5% 0% 0; color: #fff; font-weight: 600; }
+    #txts_pgdc { float: right; width: 60%; padding: 10% 0; color: #fff; font-weight: 600; }
 
-    .linha_1_pgdc {float: left; width: 100%; font-size: 5vw;}
+    .linha_1_pgdc {float: left; width: fit-content; font-size: 5vw;}
     .linha_2_pgdc {float: left; width: 100%; font-size: 14vw; line-height: 85%;}
     .linha_3_pgdc {float: left; width: 100%; font-size: 7.3vw;}
 
@@ -582,7 +590,7 @@ polyline { color: #f9b006; }
 /*_SECTION_2 (O CURSO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso{float: left; width: 100%;}
     
-    #half_video {float: left; width: 90%; margin: 5% 5%;}
+    #half_txt_curso { float: left; width: 90%; margin: 0% 5% 5%; }
 
     /* Responsive Video Classes */
     .youtube-player {position: relative; padding-bottom: 56.23%;/* Use 75% for 4:3 videos */height: 0; overflow: hidden; max-width: 100%; background: #000; margin: 5px;}    
@@ -592,18 +600,16 @@ polyline { color: #f9b006; }
     .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(images/video_play.png); cursor: pointer;}
     /* End of Responsive Video Classes */
 
-    #half_txt_curso {float: left; width: 100%; margin: 5% 0% 0%;}
-    
-    .bh{border: 3px solid; color: #fab515; padding: 0; margin: 0 0; width: 30%;}   
+    .bh{border: 1px solid; color: #fab515; padding: 0; margin: 0 0; width: 30%;}   
 
 /* #SECTION_3 (TEMA DAS AULAS) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-    #txt_tema_das_aulas { color: #fff; float: left; width: 32%; margin: 0 29% 0; }
-    #txt_e_btn_tema_das_aulas { float: left; color: #000; text-align: center; font-size: 3vw; padding: 5.5% 9.5%; width: 81%; }
+    #txt_tema_das_aulas { color: #fff; float: left; width: 44%; margin: 5% 28% 0; }
+    #txt_e_btn_tema_das_aulas { float: left; color: #000; text-align: center; font-size: 3vw; padding: 2.5% 9.5% 5%; width: 81%; }
 
 /* #SECTION_4 (NOSSA ESTRUTURA) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #nossa_estrutura { float: left; width: 90%; padding: 0% 5%;}
     #txt_nossas_estrutura { width: 90%; float: left; padding: 0% 5%; }
-    #txt_titulo_estrutura { float: left; width: 41%; margin: 0 24.5% 0; }
+    #txt_titulo_estrutura { float: left; width: 52%; margin: 5% 24.5% 0; }
 
     /*slideshow classes with hammer*/
     #container_1, #container_2{float: left; width: 100%; margin: 0% 0% 120%; }
@@ -612,7 +618,7 @@ polyline { color: #f9b006; }
     .dft-img, .txts_slideshow {float: left; width: 100%;}
 
     .txt_ss_titulo_lg , .txt_ss_descricao_lg { color: #033675; padding: 2.5% 2%; background: #fff;}
-    .txt_ss_titulo_lg { font-size: 2.7vw; text-align: center; }
+    .txt_ss_titulo_lg { font-size: 2.2vw; text-align: center; }
     
     .bss-slides1, .bss-slides2 { display: block; position: absolute; width: 90%; margin: 0% 0%; float: left; }
 
@@ -623,13 +629,13 @@ polyline { color: #f9b006; }
     .bss-slides1 .bss-show, .bss-slides2 .bss-show  {z-index: 3;}
     .bss-slides1 .bss-show img, .bss-slides2 .bss-show img {opacity: 1; -webkit-backface-visibility: hidden; backface-visibility: hidden;}
 
-    .bss-next, .bss-prev { color: #033675; position: absolute; top: 34.5%; z-index: 4; font-size: 12.3vw; opacity: .5; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; float: left; }    .bss-next:hover, .bss-prev:hover{cursor: pointer; opacity: 1;}
-    .bss-next {right: -3%; padding: 10px 5px 15px 10px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; float: right;}
-    .bss-prev {left: -3%; padding: 10px 10px 15px 5px; border-top-right-radius: 3px; border-bottom-right-radius: 3px;}
+    .bss-next, .bss-prev { color: #033675; position: absolute; top: 35%; z-index: 4; font-size: 12.3vw; opacity: .5; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; float: left; }    .bss-next:hover, .bss-prev:hover{cursor: pointer; opacity: 1;}
+    .bss-next {right: 0%; padding: 0px 0px 0px 0px; border-top-left-radius: 0px; border-bottom-left-radius: 0px; float: right;}
+    .bss-prev {left: 0%; padding: 0px 0px 0px 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px;}
 
     /*secondary slideshow classes*/
     #container_2 > div > span.bss-prev , #container_2 > div > span.bss-next { color: #FFF; }
-    .txt_ss_titulo_lg2 { font-size: 1.9vw; text-align: center; background: #070e28; color: #fff; padding: 2.5% 2%;}
+    .txt_ss_titulo_lg2 { font-size: 2vw; text-align: center; background: #070e28; color: #fff; padding: 2.5% 2%;}
 
 /*_SECTION_5 (CONHEÇA NOSSO CORPO DOCENTE) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #conheca_nosso_corpo_docente { float: left; width: 90%; padding: 3% 5%; background: #070e28; }
@@ -663,7 +669,7 @@ polyline { color: #f9b006; }
     .hamburger { padding: 0 0%; display: inline-block; cursor: pointer; transition-property: opacity,filter; transition-duration: .15s; transition-timing-function: linear; font: inherit; color: inherit; text-transform: none; background-color: transparent; border: 0; margin: 0; overflow: visible; outline: 0; }
     .hamburger-box { width: 2px; height: 26px; display: inline-block; position: relative; float: left; }
     .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {width: 25px; height: 4px; background-color: #FFFFFF; border-radius: 0px; position: absolute; transition-property: transform; transition-duration: 0.15s; transition-timing-function: ease;}
-    .hamburger-inner {display: block; top: 67%; margin-top: -2px;}
+    .hamburger-inner {display: block; top: 61%; margin-top: -2px;}
 
     /* Responsive Menu */
     .topnav {overflow: hidden; background-color: #000; position: relative;}
@@ -684,16 +690,16 @@ polyline { color: #f9b006; }
  
     .osb {color: #fab515;}
    .osw{color: #f9b006;}
-    .titulos {font-size: 7vw; padding: 2% 5% 0;}
+    .titulos { font-size: 7vw;}
 
 /*_SECTION_1 (TOPO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
     .webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.webp);}
     .no-webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.jpg);}
 
-    #txts_pgdc { float: right; width: 50%; padding: 5% 0% 0; color: #fff; font-weight: 600; }
+    #txts_pgdc { float: right; width: 60%; padding: 10% 0; color: #fff; font-weight: 600; }
 
-    .linha_1_pgdc {float: left; width: 100%; font-size: 5vw;}
+    .linha_1_pgdc { float: left; width: fit-content; font-size: 5vw; }
     .linha_2_pgdc {float: left; width: 100%; font-size: 14vw; line-height: 85%;}
     .linha_3_pgdc {float: left; width: 100%; font-size: 7.3vw;}
 
@@ -713,20 +719,20 @@ polyline { color: #f9b006; }
     .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background-image: url(images/video_play.png); cursor: pointer;}
     /* End of Responsive Video Classes */
 
-    #half_txt_curso {float: left; width: 100%; margin: 5% 0% 0%;}
+    #half_txt_curso { float: left; width: 90%; margin: 0% 5% 5%; }
     
-    .bh{border: 3px solid; color: #fab515; padding: 0; margin: 0 0; width: 30%;}
+    .bh{border: 1px solid; color: #fab515; padding: 0; margin: 0 0; width: 30%;}
     .buttonb {border: none; color: white; padding: 2% 2%; text-align: center; text-decoration: none; font-size: 3.5vw; font-weight: 600; margin: 0; cursor: pointer; border-radius: 20px; background-color: #033675; width: fit-content;}
     .buttonb:hover {background-color: #2a89ad; transition: ease 1s;}
 
 /* #SECTION_3 (TEMA DAS AULAS) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-    #txt_tema_das_aulas { color: #fff; float: left; width: 32%; margin: 0 29% 0; }
-    #txt_e_btn_tema_das_aulas { float: left; color: #000; text-align: center; font-size: 3vw; padding: 5.5% 9.5%; width: 81%; }
+    #txt_tema_das_aulas { color: #fff; float: left; width: 44%; margin: 5% 28% 0; }
+    #txt_e_btn_tema_das_aulas { float: left; color: #000; text-align: center; font-size: 3vw; padding: 2.5% 9.5% 5%; width: 81%; }
 
 /* #SECTION_4 (NOSSA ESTRUTURA) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #nossa_estrutura { float: left; width: 90%; padding: 0% 5%;}
     #txt_nossas_estrutura { width: 90%; float: left; padding: 0% 5%; }
-    #txt_titulo_estrutura { float: left; width: 41%; margin: 0 24.5% 0; }
+    #txt_titulo_estrutura { float: left; width: 52%; margin: 5% 24.5% 0; }
 
     /*slideshow classes with hammer*/
     #container_1, #container_2{float: left; width: 100%; margin: 0% 0% 120%; }
@@ -735,7 +741,7 @@ polyline { color: #f9b006; }
     .dft-img, .txts_slideshow {float: left; width: 100%;}
 
     .txt_ss_titulo_lg , .txt_ss_descricao_lg { color: #033675; padding: 2.5% 2%; background: #fff;}
-    .txt_ss_titulo_lg { font-size: 2.7vw; text-align: center; }
+    .txt_ss_titulo_lg { font-size: 2.2vw; text-align: center; }
     
     .bss-slides1, .bss-slides2 { display: block; position: absolute; width: 90%; margin: 0% 0%; float: left; }
 
@@ -746,13 +752,13 @@ polyline { color: #f9b006; }
     .bss-slides1 .bss-show, .bss-slides2 .bss-show  {z-index: 3;}
     .bss-slides1 .bss-show img, .bss-slides2 .bss-show img {opacity: 1; -webkit-backface-visibility: hidden; backface-visibility: hidden;}
 
-    .bss-next, .bss-prev { color: #033675; position: absolute; top: 34.5%; z-index: 4; font-size: 12.3vw; opacity: .5; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; float: left; }    .bss-next:hover, .bss-prev:hover{cursor: pointer; opacity: 1;}
-    .bss-next {right: -3%; padding: 10px 5px 15px 10px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; float: right;}
-    .bss-prev {left: -3%; padding: 10px 10px 15px 5px; border-top-right-radius: 3px; border-bottom-right-radius: 3px;}
+    .bss-next, .bss-prev { color: #033675; position: absolute; top: 35%; z-index: 4; font-size: 12.3vw; opacity: .5; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; float: left; }    .bss-next:hover, .bss-prev:hover{cursor: pointer; opacity: 1;}
+    .bss-next {right: -1%; padding: 0px 0px 0px 0px; border-top-left-radius: 0px; border-bottom-left-radius: 0px; float: right;}
+    .bss-prev {left: -1%; padding: 0px 0px 0px 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px;}
 
     /*secondary slideshow classes*/
     #container_2 > div > span.bss-prev , #container_2 > div > span.bss-next { color: #FFF; }
-    .txt_ss_titulo_lg2 { font-size: 1.9vw; text-align: center; background: #070e28; color: #fff; padding: 2.5% 2%;}
+    .txt_ss_titulo_lg2 { font-size: 2vw; text-align: center; background: #070e28; color: #fff; padding: 2.5% 2%;}
 
 /*_SECTION_5 (CONHEÇA NOSSO CORPO DOCENTE) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #conheca_nosso_corpo_docente { float: left; width: 90%; padding: 3% 5%; background: #070e28; }
