@@ -98,9 +98,9 @@ a{text-decoration: none;}
 
 /* #SECTION_1 (TOPO) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
-    /*.webp .calltest{background-image: url(../images/banner_direito_processual_civil_v1.webp);}*/
-    .webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.webp);}
-    .no-webp .calltest{background-image: url(images/img-fallback/banner_direito_processual_civil_v1.jpg);}
+    /*.webp .calltest{background-image: url(../images/banner_direito_processual_civil_v2.webp);}*/
+    .webp .calltest{background-image: url(images/banner_direito_processual_civil_v2.webp);}
+    .no-webp .calltest{background-image: url(images/img-fallback/banner_direito_processual_civil_v2.jpg);}
 
     #txts_pgdc { float: right; width: 40%; padding: 5.75% 4% 0; color: #fff; font-weight: 600; }
    .linha_1_pgdc { float: left; width: fit-content; padding: 1% 5%; font-size: 3vw; color: #000; background: #fab515; }
@@ -217,8 +217,8 @@ a{text-decoration: none;}
 
 /* #SECTION_1 (TOPO) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
-    .webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.webp);}
-    .no-webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.jpg);}
+    .webp .calltest{background-image: url(images/banner_direito_processual_civil_v2.webp);}
+    .no-webp .calltest{background-image: url(images/banner_direito_processual_civil_v2.jpg);}
 
     #txts_pgdc { float: right; width: 50%; padding: 10% 4%; color: #fff; font-weight: 600; }
     .linha_1_pgdc { float: left; width: fit-content; padding: 0 5% 0; font-size: 4vw; color: #000; background: #fab515; }
@@ -330,8 +330,8 @@ a{text-decoration: none;}
 
 /*_SECTION_1 (TOPO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
-    .webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.webp);}
-    .no-webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.jpg);}
+    .webp .calltest{background-image: url(images/banner_direito_processual_civil_v2.webp);}
+    .no-webp .calltest{background-image: url(images/banner_direito_processual_civil_v2.jpg);}
 
     #txts_pgdc { float: right; width: 50%; padding: 10% 5%; color: #fff; font-weight: 600; }
 
@@ -455,8 +455,8 @@ a{text-decoration: none;}
 
 /*_SECTION_1 (TOPO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
-    .webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.webp);}
-    .no-webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.jpg);}
+    .webp .calltest{background-image: url(images/banner_direito_processual_civil_v2.webp);}
+    .no-webp .calltest{background-image: url(images/banner_direito_processual_civil_v2.jpg);}
 
     #txts_pgdc { float: right; width: 50%; padding: 5% 0% 5%; color: #fff; font-weight: 600; }
 
@@ -579,8 +579,8 @@ polyline { color: #f9b006; }
 
 /*_SECTION_1 (TOPO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
-    .webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.webp);}
-    .no-webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.jpg);}
+    .webp .calltest{background-image: url(images/banner_direito_processual_civil_v2_s.webp);}
+    .no-webp .calltest{background-image: url(images/banner_direito_processual_civil_v2_s.jpg);}
 
     #txts_pgdc { float: right; width: 60%; padding: 10% 0; color: #fff; font-weight: 600; }
 
@@ -699,8 +699,8 @@ polyline { color: #f9b006; }
 
 /*_SECTION_1 (TOPO) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #topo_pgdc {float: left; background-size: cover; background-repeat: no-repeat; width: 100%;}
-    .webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.webp);}
-    .no-webp .calltest{background-image: url(images/banner_direito_processual_civil_v1.jpg);}
+    .webp .calltest{background-image: url(images/banner_direito_processual_civil_v2_s.webp);}
+    .no-webp .calltest{background-image: url(images/banner_direito_processual_civil_v2_s.jpg);}
 
     #txts_pgdc { float: right; width: 60%; padding: 10% 0; color: #fff; font-weight: 600; }
 
