@@ -180,14 +180,23 @@ a{text-decoration: none;}
     #contato { float: left; width: 86%; padding: 0 7%; }
         
     #container_redes_sociais_s { float: left; width: 85%; margin: 0% 7.5% 2%; display: block; }
-    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
-    .blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
-    .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
-    .instagram-s { background-position: -5px -53px; width: 48px; height: 48px; }
-    .linkedin-s { background-position: -58px -53px; width: 48px; height: 48px; }
-    .twitter-s { background-position: -5px -106px; width: 48px; height: 48px; }
-    .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; }
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+
+    /*.blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }*/
+
+    .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
 
     .logo{float: right; padding: 1% 1%;}
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
@@ -296,14 +305,15 @@ a{text-decoration: none;}
     #contato { float: left; width: 86%; padding: 0 7%; }
     
     #container_redes_sociais_s { float: left; width: 85%; margin: 0% 7.5% 2%; display: block; }
-    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
-    .blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
-    .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
-    .instagram-s { background-position: -5px -53px; width: 48px; height: 48px; }
-    .linkedin-s { background-position: -58px -53px; width: 48px; height: 48px; }
-    .twitter-s { background-position: -5px -106px; width: 48px; height: 48px; }
-    .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; }
+    .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
 
     .logo{float: right; padding: 1% 1%;}    
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
@@ -409,14 +419,15 @@ a{text-decoration: none;}
     #contato{float: left; width: 90%; padding: 0% 3%;}
        
     #container_redes_sociais_s { float: left; width: 85%; margin: 0% 7.5% 2%; display: block; }
-    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
-    .blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
-    .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
-    .instagram-s { background-position: -5px -53px; width: 48px; height: 48px; }
-    .linkedin-s { background-position: -58px -53px; width: 48px; height: 48px; }
-    .twitter-s { background-position: -5px -106px; width: 48px; height: 48px; }
-    .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; }
+    .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
 
     .logo{float: right; padding: 1% 1%;}  
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
@@ -537,15 +548,16 @@ a{text-decoration: none;}
     #contato{float: left; width: 90%; padding: 0% 3%;}
 
     /* sprite testing on social media icons */
-    #container_redes_sociais_s { float: left; width: 40%; margin: 0% 30%; display: block; }
-    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    #container_redes_sociais_s { float: left; width: 46%; margin: 0 27%; display: block; }
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
-    .blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
-    .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
-    .instagram-s { background-position: -5px -53px; width: 48px; height: 48px; }
-    .linkedin-s { background-position: -58px -53px; width: 48px; height: 48px; }
-    .twitter-s { background-position: -5px -106px; width: 48px; height: 48px; }
-    .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; }
+    .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
 
     .logo { float: right; padding: 1% 1%; width: 20%; margin: 5% 39%; }
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
@@ -661,15 +673,16 @@ polyline { color: #f9b006; }
     #contato{float: left; width: 90%; padding: 0% 3%;}
     
     /* sprite testing on social media icons */
-    #container_redes_sociais_s { float: left; width: 82%; margin: 5% 9%; display: block; }
-    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    #container_redes_sociais_s { float: left; width: 93%; margin: 5% 2.5%; display: block; }
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
-    .blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
-    .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
-    .instagram-s { background-position: -5px -53px; width: 48px; height: 48px; }
-    .linkedin-s { background-position: -58px -53px; width: 48px; height: 48px; }
-    .twitter-s { background-position: -5px -106px; width: 48px; height: 48px; }
-    .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; }
+    .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
 
     .logo { float: right; padding: 1% 1%; width: 20%; margin: 5% 39%; }
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
@@ -787,15 +800,16 @@ polyline { color: #f9b006; }
     #contato{float: left; width: 90%; padding: 0% 3%;}
 
     /* sprite testing on social media icons */
-    #container_redes_sociais_s { float: left; width: 95.5%; margin: 5% 2.25%; display: block; }
-    .blog-s, .facebook-s, .instagram-s, .linkedin-s, .twitter-s, .youtube-s{display: inline-block; background: url('images/rs_s_v2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    #container_redes_sociais_s { float: left; width: 51%; margin: 5% 24.5%; display: block; }
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
-    .blog-s { background-position: -5px -0px; width: 48px; height: 48px; }
-    .facebook-s { background-position: -58px -0px; width: 48px; height: 48px; }
-    .instagram-s { background-position: -5px -53px; width: 48px; height: 48px; }
-    .linkedin-s { background-position: -58px -53px; width: 48px; height: 48px; }
-    .twitter-s { background-position: -5px -106px; width: 48px; height: 48px; }
-    .youtube-s { background-position: -58px -106px; width: 48px; height: 48px; }
+    .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
 
     .logo { float: right; padding: 1% 1%; width: 20%; margin: 5% 39%; }
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
