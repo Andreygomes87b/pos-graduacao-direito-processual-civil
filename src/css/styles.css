@@ -139,7 +139,7 @@ a{text-decoration: none;}
     .btn_download:hover{background-color: #070e28; color: #fff; transition: ease 1s;}
 
 /* #SECTION_4 (NOSSA ESTRUTURA) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-    #nossa_estrutura { float: left; width: 90%; padding: 0% 5%;}
+    #nossa_estrutura { float: left; width: 90%; padding: 0% 5% 3.4%; }
     #txt_nossas_estrutura { width: 90%; float: left; padding: 0% 5%; }
     #txt_titulo_estrutura { float: left; width: 30%; margin: 0 34.35% 0; font-family: Oswald; }
 
@@ -201,7 +201,8 @@ a{text-decoration: none;}
     .logo{float: right; padding: 1% 1%;}
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
-    #btt { float: left; width: 1.4%; height: 3%; margin: 49% 0 0 97.6%; position: fixed; }
+    /* #btt original code that was working { float: left; width: 1.4%; height: 3%; margin: 49% 0 0 97.6%; position: fixed; } */
+    #btt { float: left; width: 1.4%; height: 3%; margin: -170% 0 0 97.6%; position: fixed; }
 
 
 }
@@ -318,7 +319,8 @@ a{text-decoration: none;}
     .logo{float: right; padding: 1% 1%;}    
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
-    #btt { float: left; width: 1.4%; height: 3%; margin: 130% 0 0 97.6%; position: fixed; }
+    #btt { float: left; width: 1.4%; height: 3%; margin: -180% 0 0 97.6%; position: fixed; }
+    /* #btt { float: left; width: 1.4%; height: 3%; margin: 130% 0 0 97.6%; position: fixed; } */
 
 
 }
@@ -562,7 +564,7 @@ a{text-decoration: none;}
     .logo { float: right; padding: 1% 1%; width: 20%; margin: 5% 39%; }
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
-    #btt { float: left; width: 1.4%; height: 3%; margin: 126% 0 0 94.6%; position: fixed; }
+    #btt { float: left; width: 1.4%; height: 3%; margin: -541% 0 0 96.6%; position: fixed; }
 
 
 }
@@ -687,7 +689,8 @@ polyline { color: #f9b006; }
     .logo { float: right; padding: 1% 1%; width: 20%; margin: 5% 39%; }
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
-    #btt { float: left; width: 1.4%; height: 3%; margin: 150% 0 0 94.6%; position: fixed; }
+    #btt { float: left; width: 1.4%; height: 3%; margin: -540% 0 0 94.6%; position: fixed; }
+    /* #btt { float: left; width: 1.4%; height: 3%; margin: 150% 0 0 94.6%; position: fixed; } */
 
 }
 /* iPhone 4 ======================================================================================================================================================================================================================================================================================================================*/
@@ -814,7 +817,8 @@ polyline { color: #f9b006; }
     .logo { float: right; padding: 1% 1%; width: 20%; margin: 5% 39%; }
     .logo_bottom { float: left; width: 100%; margin: 0 0; }
 
-    #btt { float: left; width: 1.4%; height: 3%; margin: 140% 0 0 94.6%; position: fixed; }
+    #btt { float: left; width: 1.4%; height: 3%; margin: -575% 0 0 94.6%; position: fixed; }
+    /* #btt { float: left; width: 1.4%; height: 3%; margin: 140% 0 0 94.6%; position: fixed; } */
 
 }
 /*======================================================================================================================================================================================================================================================================================================================*/

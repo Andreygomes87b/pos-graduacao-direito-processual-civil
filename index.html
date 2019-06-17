@@ -5,6 +5,8 @@
 
         <!-- Compiled and minified -->
         <meta name="theme-color" content="#f9b006"/>
+        <link rel="manifest" href="manifest.json">
+
         <meta name="robots" content="index"/>
         <!--<link rel="preload" href="src/css/min/stylesf-min.css" as="style">
         <link rel="stylesheet" href="src/css/min/stylesf-min.css">-->
@@ -13,6 +15,7 @@
 
         <link rel="preconnect" href="https://i.ytimg.com">
 
+        <link rel="preconnect" href="https://www.google-analytics.com">
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41994177-1"></script>
         <script>
@@ -21,6 +24,13 @@
           gtag('js', new Date());
 
           gtag('config', 'UA-41994177-1');
+        </script>
+
+        <!-- this is the service worker script -->
+        <script>
+            if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js')
+            }
         </script>
 
         <title>Pós-Graduação Direito Processual Civil - FDSM</title>
@@ -35,6 +45,7 @@
 
     <body>
         <!-- RESPONSIVE & HAMBURGER'S MENU SECTION -->
+        <span id="home"></span>
     	<section>    
             <div id="Inicio" class="topnav">
                 <span class="menu_active">
@@ -59,7 +70,10 @@
                 </div>
 
                 <a href="javascript:void(0);" class="icon" onclick="fdsmMobileMenu()">
-                    <button class="hamburger hamburger--emphatic" type="button" aria-label=" Link para o botão que expande o menu. "><span class="hamburger-box"><span class="hamburger-inner"></span></span>
+                    <button class="hamburger hamburger--emphatic" type="button" aria-label=" Link para o botão que expande o menu. ">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
                     </button>
                 </a>
             </div>
@@ -86,15 +100,7 @@
                     CIVIL
                     </div>
                     </h1>			
-                </div>
-
-                <!--<div class="txt_diferencial">
-                    Seja a referência que você busca!
                 </div>                
-
-                <div class="txt_desconto">
-                    Desconto para matriculas até 05/07.
-                </div>-->
         	</div>
         </section>
     
@@ -158,7 +164,7 @@
                     <div class="bss-slides1 demo1" tabindex="0" autofocus="autofocus">
                         <figure>
                             <div class="imgs_ss_1">
-                                <img src=""data-webp="images/entrada_de_predio_anexo.webp" data-original="images/img-fallback/entrada_de_predio_anexo.jpg" class="img-webp dft-img" alt=" Entrada do Edifício Dr. Carlos Abel Guersoni Rezende, anexo a FDSM. ">
+                                <img src="" class="img-webp dft-img" data-webp="images/entrada_de_predio_anexo.webp" alt=" Entrada do Edifício Dr. Carlos Abel Guersoni Rezende, anexo a FDSM. " data-original="images/img-fallback/entrada_de_predio_anexo.jpg" />
 
                                 <div class="txts_slideshow">
                                     <div class="txt_ss_titulo_lg">Prédio da Pós-Graduação</div>                                                                                
@@ -166,7 +172,7 @@
                             </div>                                                        
 
                             <div class="imgs_ss_1">
-                                <img src="" data-original="images/img-fallback/fdsm-sala-2.jpg" data-webp="images/fdsm-sala-2.webp" class="dft-img img-webp" alt=" Infraestrutura de sala de aula. ">
+                                <img src="" class="dft-img img-webp" data-webp="images/fdsm-sala-2.webp" alt=" Infraestrutura de sala de aula. " data-original="images/img-fallback/fdsm-sala-2.jpg">
 
                                 <div class="txts_slideshow">
                                     <div class="txt_ss_titulo_lg">Sala de aula</div>                                                                                
@@ -174,7 +180,7 @@
                             </div>
 
                             <div class="imgs_ss_1">
-                                <img src="" data-original="images/img-fallback/fdsm-sala.jpg" data-webp="images/fdsm-sala.webp" class="dft-img img-webp" alt=" Sala de aula moderna FDSM. ">
+                                <img src="" class="dft-img img-webp" data-webp="images/fdsm-sala.webp" alt=" Sala de aula moderna FDSM. " data-original="images/img-fallback/fdsm-sala.jpg">
 
                                 <div class="txts_slideshow">
                                     <div class="txt_ss_titulo_lg">Sala de aula</div>                                                                                
@@ -182,7 +188,7 @@
                             </div>
 
                             <div class="imgs_ss_1">
-                                <img src="" data-original="images/img-fallback/laboratorio_de_informatica.jpg" data-webp="images/laboratorio_de_informatica.webp" class="dft-img img-webp" alt=" Laboratório de Informática da FDSM. ">
+                                <img src="" class="dft-img img-webp" data-webp="images/laboratorio_de_informatica.webp" alt=" Laboratório de Informática da FDSM. " data-original="images/img-fallback/laboratorio_de_informatica.jpg">
 
                                 <div class="txts_slideshow">
                                     <div class="txt_ss_titulo_lg">Laboratório de Informática</div>                                                                                
@@ -192,7 +198,7 @@
 
                         <figure>
                             <div class="imgs_ss_1">
-                                <img src="" data-original="images/img-fallback/biblioteca_espaco_de_estudos.jpg" data-webp="images/biblioteca_espaco_de_estudos.webp" class="dft-img img-webp" alt=" Espaço de estudos na biblioteca. ">
+                                <img src="" class="dft-img img-webp" data-webp="images/biblioteca_espaco_de_estudos.webp" alt=" Espaço de estudos na biblioteca. " data-original="images/img-fallback/biblioteca_espaco_de_estudos.jpg">
 
                                 <div class="txts_slideshow">
                                     <div class="txt_ss_titulo_lg">Biblioteca</div>
@@ -200,7 +206,7 @@
                             </div>
 
                             <div class="imgs_ss_1">
-                                <img src="" data-original="images/img-fallback/biblioteca_estantes_de_livros.jpg" data-webp="images/biblioteca_estantes_de_livros.webp" class="dft-img img-webp" alt=" Estantes de livros em grande acervo de direito. ">
+                                <img src="" class="dft-img img-webp" data-webp="images/biblioteca_estantes_de_livros.webp" alt=" Estantes de livros em grande acervo de direito. " data-original="images/img-fallback/biblioteca_estantes_de_livros.jpg">
 
                                 <div class="txts_slideshow">
                                     <div class="txt_ss_titulo_lg">Biblioteca</div>
@@ -208,7 +214,7 @@
                             </div>
 
                             <div class="imgs_ss_1">
-                                <img src="" data-original="images/img-fallback/biblioteca_mesas_de_estudo.jpg" data-webp="images/biblioteca_mesas_de_estudo.webp" class="dft-img img-webp" alt=" Mesas de estudo na biblioteca da FDSM. ">
+                                <img src="" class="dft-img img-webp" data-webp="images/biblioteca_mesas_de_estudo.webp" alt=" Mesas de estudo na biblioteca da FDSM. " data-original="images/img-fallback/biblioteca_mesas_de_estudo.jpg">
 
                                 <div class="txts_slideshow">
                                     <div class="txt_ss_titulo_lg">Sala de estudos da biblioteca</div>                                                                                
@@ -216,7 +222,7 @@
                             </div>
 
                             <div class="imgs_ss_1">
-                                <img src="" data-original="images/img-fallback/salao_do_juri.jpg" data-webp="images/salao_do_juri.webp" class="dft-img img-webp" alt=" Espaço adicional de estudos. ">
+                                <img src="" class="dft-img img-webp" data-webp="images/salao_do_juri.webp" alt=" Espaço adicional de estudos. " data-original="images/img-fallback/salao_do_juri.jpg">
 
                                 <div class="txts_slideshow">
                                     <div class="txt_ss_titulo_lg">Salão do Jurí</div>                                                                                
@@ -234,7 +240,10 @@
             <div id="conheca_nosso_corpo_docente">
                 <div id="txt_conheca" class="titulos">
                     <div>Corpo Docente 1° módulo</div>
-                    <hr class="bh">                                        
+                    <hr class="bh">
+                    <p>
+                        *grade docente ainda não confirmada e sujeita a alterações.
+                    </p>                     
                 </div>
 
                 <div id="container_2">
@@ -243,7 +252,8 @@
 
                         <div class="imgs_ss_2">
                             <a href="http://lattes.cnpq.br/3145282320594893" target="_blank" rel="noopener">
-                                <img src="" data-webp="images/Filipe-Antonio-Marchi-Levada.webp"  data-original="images/img-fallback/Filipe-Antonio-Marchi-Levada.jpg" class="dft-img img-webp" alt=" Prof. Filipe Antônio Marchi Levada. "/>
+                                <!-- <img src="" class="dft-img img-webp" data-webp="images/Filipe-Antonio-Marchi-Levada.webp" alt=" Prof. Filipe Antônio Marchi Levada. " data-original="images/img-fallback/Filipe-Antonio-Marchi-Levada.jpg" /> -->
+                                <img src="" class="dft-img img-webp" data-webp="images/male-avatar.webp" alt="" data-original="images/img-fallback/male-avatar.jpeg">
 
                                 <div class="txts_slideshow">
                                     <div class="txt_ss_titulo_lg2"> Prof. Me. Filipe A. M. Levada. </div>                                                                                
@@ -252,7 +262,9 @@
                         </div>
 
                         <div class="imgs_ss_2">
-                            <a href="http://lattes.cnpq.br/0933102554265900" target="_blank" rel="noopener"><img src="" data-webp="images/Glauco-Gumerato-Ramos.webp" data-original="images/img-fallback/Glauco-Gumerato-Ramos.jpg" class="dft-img img-webp" alt=" Prof. Glauco Gumerato Ramos. "/>
+                            <a href="http://lattes.cnpq.br/0933102554265900" target="_blank" rel="noopener">
+                                <!-- <img src="" class="dft-img img-webp" data-webp="images/Glauco-Gumerato-Ramos.webp" alt=" Prof. Glauco Gumerato Ramos. " data-original="images/img-fallback/Glauco-Gumerato-Ramos.jpg" /> -->
+                                <img src="" class="dft-img img-webp" data-webp="images/male-avatar.webp" alt="" data-original="images/img-fallback/male-avatar.jpeg">
 
                                 <div class="txts_slideshow">
                                     <div class="txt_ss_titulo_lg2">  Prof. Me. Glauco G. Ramos. </div>
@@ -261,7 +273,9 @@
                         </div>
 
                         <div class="imgs_ss_2">
-                            <a href="http://lattes.cnpq.br/0984986751289921" target="_blank" rel="noopener"><img src="" data-webp="images/Gilson-Delgado-Miranda.webp" data-original="images/img-fallback/Gilson-Delgado-Miranda.jpg" class="dft-img img-webp" alt=" Prof. Gilson Delgado Miranda. "/>
+                            <a href="http://lattes.cnpq.br/0984986751289921" target="_blank" rel="noopener">
+                                <!-- <img src="" class="dft-img img-webp" data-webp="images/Gilson-Delgado-Miranda.webp" alt=" Prof. Gilson Delgado Miranda. " data-original="images/img-fallback/Gilson-Delgado-Miranda.jpg" /> -->
+                                <img src="" class="dft-img img-webp" data-webp="images/male-avatar.webp" alt="" data-original="images/img-fallback/male-avatar.jpeg">
 
                                 <div class="txts_slideshow">
                                     <div class="txt_ss_titulo_lg2"> Prof. Dr. Gilson D. Miranda. </div>
@@ -270,7 +284,9 @@
                         </div>
 
                         <div class="imgs_ss_2">
-                            <a href="http://lattes.cnpq.br/4882467055578030" target="_blank" rel="noopener"><img src="" data-webp="images/jose-roberto.webp" data-original="images/img-fallback/jose-roberto.jpg" class="dft-img img-webp" alt=" Prof. Dr. José Roberto dos Santos Bedaque. "/>
+                            <a href="http://lattes.cnpq.br/4882467055578030" target="_blank" rel="noopener">
+                                <!-- <img src="" class="dft-img img-webp" data-webp="images/jose-roberto.webp" alt=" Prof. Dr. José Roberto dos Santos Bedaque. " data-original="images/img-fallback/jose-roberto.jpg" /> -->
+                                <img src="" class="dft-img img-webp" data-webp="images/male-avatar.webp" alt="" data-original="images/img-fallback/male-avatar.jpeg">
 
                                 <div class="txts_slideshow">
                                     <div class="txt_ss_titulo_lg2"> Prof. Dr. José R. dos S. Bedaque.</div>
@@ -282,7 +298,9 @@
 
                         <figure>
                             <div class="imgs_ss_2">
-                                <a href="http://lattes.cnpq.br/4712365303875462" target="_blank" rel="noopener"><img src="" data-webp="images/Claudio-Antonio-Soares-Levada.webp" data-original="images/img-fallback/Claudio-Antonio-Soares-Levada.jpg" class="dft-img img-webp" alt=" Prof. Dr. Claudio Antônio Soares Levada. "/>
+                                <a href="http://lattes.cnpq.br/4712365303875462" target="_blank" rel="noopener">
+                                    <!-- <img src="" class="dft-img img-webp" data-webp="images/Claudio-Antonio-Soares-Levada.webp" alt=" Prof. Dr. Claudio Antônio Soares Levada. " data-original="images/img-fallback/Claudio-Antonio-Soares-Levada.jpg" /> -->
+                                    <img src="" class="dft-img img-webp" data-webp="images/male-avatar.webp" alt="" data-original="images/img-fallback/male-avatar.jpeg">
 
                                     <div class="txts_slideshow">
                                         <div class="txt_ss_titulo_lg2"> Prof. Dr. Claudio A. S. Levada. </div>
@@ -291,7 +309,9 @@
                             </div>
 
                             <div class="imgs_ss_2">
-                                <a href="http://lattes.cnpq.br/7290703827324136" target="_blank" rel="noopener"><img src="" data-webp="images/Daniel-Lunardi-Petrin.webp" data-original="images/img-fallback/Daniel-Lunardi-Petrin.jpg" class="dft-img img-webp" alt=" Prof. Daniel Lunardi Petrin. "/>
+                                <a href="http://lattes.cnpq.br/7290703827324136" target="_blank" rel="noopener">
+                                    <!-- <img src="" class="dft-img img-webp" data-webp="images/Daniel-Lunardi-Petrin.webp" alt=" Prof. Daniel Lunardi Petrin. " data-original="images/img-fallback/Daniel-Lunardi-Petrin.jpg" /> -->
+                                    <img src="" class="dft-img img-webp" data-webp="images/male-avatar.webp" alt="" data-original="images/img-fallback/male-avatar.jpeg">
 
                                     <div class="txts_slideshow">
                                         <div class="txt_ss_titulo_lg2"> Prof. Dr. Daniel L. Petrin. </div>
@@ -300,7 +320,9 @@
                             </div>
 
                             <div class="imgs_ss_2">
-                                <a href="http://lattes.cnpq.br/0843938912750300" target="_blank" rel="noopener"><img src="" data-webp="images/Claudinei-Coletti.webp" data-original="images/img-fallback/Claudinei-Coletti.jpg" class="dft-img img-webp" alt=" Prof. Dr. Claudinei Coletti. "/>
+                                <a href="http://lattes.cnpq.br/0843938912750300" target="_blank" rel="noopener">
+                                    <!-- <img src="" class="dft-img img-webp" data-webp="images/Claudinei-Coletti.webp" alt=" Prof. Dr. Claudinei Coletti. " data-original="images/img-fallback/Claudinei-Coletti.jpg" /> -->
+                                    <img src="" class="dft-img img-webp" data-webp="images/male-avatar.webp" alt="" data-original="images/img-fallback/male-avatar.jpeg">
 
                                     <div class="txts_slideshow">
                                         <div class="txt_ss_titulo_lg2"> Prof. Dr. Claudinei Coletti. </div>
@@ -309,7 +331,9 @@
                             </div>
 
                             <div class="imgs_ss_2">
-                                <a href="http://lattes.cnpq.br/7385410938880501" target="_blank" rel="noopener"><img src="" data-webp="images/paulo-eduardo-vieira-de-oliveira.webp" data-original="images/img-fallback/paulo-eduardo-vieira-de-oliveira.jpg" class="dft-img img-webp" alt=" Prof. Dr. Paulo Eduardo Vieira de Oliveira. "/>
+                                <a href="http://lattes.cnpq.br/7385410938880501" target="_blank" rel="noopener">
+                                    <!-- <img src="" class="dft-img img-webp" data-webp="images/paulo-eduardo-vieira-de-oliveira.webp" alt=" Prof. Dr. Paulo Eduardo Vieira de Oliveira. " data-original="images/img-fallback/paulo-eduardo-vieira-de-oliveira.jpg" /> -->
+                                    <img src="" class="dft-img img-webp" data-webp="images/male-avatar.webp" alt="" data-original="images/img-fallback/male-avatar.jpeg">
 
                                     <div class="txts_slideshow">
                                         <div class="txt_ss_titulo_lg2"> Prof. Dr. Paulo E. V. de Oliveira. </div>
@@ -320,7 +344,9 @@
 
                        <figure>
                             <div class="imgs_ss_2">
-                                <a href="http://lattes.cnpq.br/0759968924552427" target="_blank" rel="noopener"><img src="" data-webp="images/Ana-Claudia-Vieira-de-Oliveira-Ciszewski.webp" data-original="images/img-fallback/Ana-Claudia-Vieira-de-Oliveira-Ciszewski.jpg" class="dft-img img-webp" alt=" Prof.ª Dra. Ana Claudia Vieira de Oliveira Ciszewski. "/>
+                                <a href="http://lattes.cnpq.br/0759968924552427" target="_blank" rel="noopener">
+                                    <!-- <img src="" class="dft-img img-webp" data-webp="images/Ana-Claudia-Vieira-de-Oliveira-Ciszewski.webp" alt=" Prof.ª Dra. Ana Claudia Vieira de Oliveira Ciszewski. " data-original="images/img-fallback/Ana-Claudia-Vieira-de-Oliveira-Ciszewski.jpg" /> -->
+                                    <img src="" class="dft-img img-webp" data-webp="images/female-avatar.webp" alt="" data-original="images/img-fallback/female-avatar.jpeg">
 
                                     <div class="txts_slideshow">
                                         <div class="txt_ss_titulo_lg2"> Prof.ª Dra. Ana C. V. de O. Ciszewski  </div>
@@ -329,7 +355,9 @@
                             </div>
 
                             <div class="imgs_ss_2">
-                                <a href="http://lattes.cnpq.br/2081134335218744" target="_blank" rel="noopener"><img src="" data-webp="images/Hamilton-Luiz-Scarabelim.webp" data-original="images/img-fallback/Hamilton-Luiz-Scarabelim.jpg" class="dft-img img-webp" alt=" Prof. Esp. Hamilton Luiz Scarabelim. "/>
+                                <a href="http://lattes.cnpq.br/2081134335218744" target="_blank" rel="noopener">
+                                    <!-- <img src="" class="dft-img img-webp" data-webp="images/Hamilton-Luiz-Scarabelim.webp" alt=" Prof. Esp. Hamilton Luiz Scarabelim. " data-original="images/img-fallback/Hamilton-Luiz-Scarabelim.jpg" /> -->
+                                    <img src="" class="dft-img img-webp" data-webp="images/male-avatar.webp" alt="" data-original="images/img-fallback/male-avatar.jpeg">
 
                                     <div class="txts_slideshow">
                                         <div class="txt_ss_titulo_lg2"> Prof. Esp. Hamilton L. Scarabelim. </div>
@@ -338,7 +366,8 @@
                             </div>
 
                             <div class="imgs_ss_2">
-                                <a href="https://www.fdsm.edu.br" target="_blank" rel="noopener"><img src="" data-webp="images/fdsm_logo_card_60_anos.webp" data-original="images/img-fallback/fdsm_logo_card_60_anos.jpg" class="dft-img img-webp" alt=" Card com o logo de 60 anos da FDSM. "/>
+                                <a href="https://www.fdsm.edu.br" target="_blank" rel="noopener">
+                                    <img src="" class="dft-img img-webp" data-webp="images/fdsm_logo_card_60_anos.webp" alt=" Card com o logo de 60 anos da FDSM. " data-original="images/img-fallback/fdsm_logo_card_60_anos.jpg" />
 
                                     <div class="txts_slideshow">
                                         <div class="txt_ss_titulo_lg2 lg_disabled"> . </div>
@@ -347,7 +376,8 @@
                             </div>
 
                             <div class="imgs_ss_2">
-                                <a href="https://www.fdsm.edu.br" target="_blank" rel="noopener"><img src="" data-webp="images/fdsm_logo_card.webp" data-original="images/img-fallback/fdsm_logo_card.jpg" class="dft-img img-webp" alt=" Card com o logo da faculdade de direito do sul de minas. "/>
+                                <a href="https://www.fdsm.edu.br" target="_blank" rel="noopener">
+                                    <img src="" class="dft-img img-webp" data-webp="images/fdsm_logo_card.webp" alt=" Card com o logo da faculdade de direito do sul de minas. " data-original="images/img-fallback/fdsm_logo_card.jpg" />
 
                                     <div class="txts_slideshow">
                                         <div class="txt_ss_titulo_lg2 lg_disabled"> . </div>
@@ -371,13 +401,32 @@
                 </div>
                 
                 <div id="container_redes_sociais_s">
-                    <a href="https://blog.fdsm.edu.br/" target="_blank" rel="noopener" aria-label=" Link para o blog. "><div class="blog"></div></a>
-                    <a href="https://www.facebook.com/fdsm.oficial" target="_blank" rel="noopener" aria-label=" Link para o facebook. "><div class="facebook"></div></a>
-                    <a href="https://www.instagram.com/fdsm_oficial/" target="_blank" rel="noopener" aria-label=" Link para o instagram. "><div class="instagram"></div></a>
-                    <a href="https://www.linkedin.com/school/fdsmoficial/" target="_blank" rel="noopener" aria-label=" Link para o Linkedin. "><div class="linkedin"></div></a>
-                    <a href="https://twitter.com/fdsm_oficial" target="_blank" rel="noopener" aria-label=" Link para o twitter. "><div class="twitter"></div></a>
-                    <a href="https://www.youtube.com/user/fdsmoficial" target="_blank" rel="noopener" aria-label=" Link para o canal do Youtube. "><div class="youtube"></div></a>
-                    <a href="https://www.fdsm.edu.br" target="_blank" rel="noopener" aria-label=" Link de volta para o site oficial da FDSM. "><div class="logo"><img src="" class="img-webp logo_bottom" data-original="images/img-fallback/logo_fdsm.png" data-webp="images/logo_fdsm.webp" alt="Logo da faculdade de direito do sul de minas" class="img_logo"></div></a>
+                    <a href="https://blog.fdsm.edu.br/" target="_blank" rel="noopener" aria-label=" Link para o blog. ">
+                        <div class="blog"></div>
+                    </a>
+
+                    <a href="https://www.facebook.com/fdsm.oficial" target="_blank" rel="noopener" aria-label=" Link para o facebook. ">
+                        <div class="facebook"></div>
+                    </a>
+
+                    <a href="https://www.instagram.com/fdsm_oficial/" target="_blank" rel="noopener" aria-label=" Link para o instagram. ">
+                        <div class="instagram"></div>
+                    </a>
+
+                    <a href="https://www.linkedin.com/school/fdsmoficial/" target="_blank" rel="noopener" aria-label=" Link para o Linkedin. ">
+                        <div class="linkedin"></div>
+                    </a>
+
+                    <a href="https://twitter.com/fdsm_oficial" target="_blank" rel="noopener" aria-label=" Link para o twitter. ">
+                        <div class="twitter"></div>
+                    </a>
+
+                    <a href="https://www.youtube.com/user/fdsmoficial" target="_blank" rel="noopener" aria-label=" Link para o canal do Youtube. ">
+                        <div class="youtube"></div>
+                    </a>
+
+                    <a href="https://www.fdsm.edu.br" target="_blank" rel="noopener" aria-label=" Link de volta para o site oficial da FDSM. ">
+                        <div class="logo"><img src="" class="img-webp logo_bottom" data-original="images/img-fallback/logo_fdsm.png" data-webp="images/logo_fdsm.webp" alt="Logo da faculdade de direito do sul de minas" class="img_logo"></div></a>
                 </div>
         	</div>
         </section>
@@ -385,8 +434,10 @@
         <!--"BACK TO TOP" -->
         <section>
             <div id="btt">
-                <a href="#Inicio" aria-label=" Link que redirige de volta ao topo. ">
-                    <svg fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="2 -0 20 20" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg>
+                <a href="#home" aria-label=" Link que redirige de volta ao topo. ">
+                    <svg fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="2 -0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                        <polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/>
+                    </svg>
                 </a>
             </div>    
         </section>
