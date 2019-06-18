@@ -9,22 +9,22 @@
 ---
 
 ### :metal: *Live version:* 
-[Constitutional Rights (Live).](https://www.fdsm.edu.br/pos-graduacao-direito-processual-civil/)
+[Processual Civil Rights (Live).](https://www.fdsm.edu.br/pos-graduacao-direito-processual-civil/)
 
 ---
 
 ### :date: *Web-archive version:*
-[Constitutional Rights (Web-archive).](#)
+[Processual Civil Rights (Web-archive).](http://web.archive.org/web/20190618111924/https://www.fdsm.edu.br/pos-graduacao-direito-processual-civil/)
 
 ---
 
-### :rabbit2: *PageSpeed Report* (both mobile/desktop are over 90 on Lighthouse scoring guide):
-[PSI Report.](#)
+### :rabbit2: *PageSpeed Report* (98 - mobile/ 100 - desktop on Lighthouse scoring guide):
+[PSI Report.](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.fdsm.edu.br%2Fpos-graduacao-direito-processual-civil%2F&tab=desktop)
 
 ---
 
-### :watch: *GTmetrix test* (1.2 seconds to fully loading time!)
-[GTM](#)
+### :watch: *GTmetrix test* (98 - PageSpeed/ 92 - YSlow, 1 second to fully loading time!)
+[GTM](https://gtmetrix.com/reports/www.fdsm.edu.br/yI1WzRvo)
 
 ---
 
